@@ -52,7 +52,7 @@ int main() {
 				if (palabra.compare(vector[i]) == 0) {
 					//cout<<"son iguales";
 					SetColor(10);
-					cout << vector[i] << "";
+					cout << vector[i] << " ";
 					SetColor(15);
 					palabraUsada = true;
 
@@ -86,7 +86,7 @@ int main() {
 				if (!palabraUsada) {
 					SetColor(15);
 
-					cout << vector[i] << "";
+					cout << vector[i] << " ";
 					palabraUsada = false;
 				}
 			}
